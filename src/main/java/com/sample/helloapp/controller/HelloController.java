@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String greet() {
-        return "Kuja's gradle application";
+        return "Kuja's gradle application after edit";
     }
 
 }
