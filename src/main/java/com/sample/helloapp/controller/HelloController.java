@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String greet() {
-        return "Kuja's gradle application for jenkins trigger";
+        return "Kuja's gradle application for jenkins build trigger";
     }
 
 }
