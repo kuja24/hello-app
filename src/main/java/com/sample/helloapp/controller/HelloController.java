@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String greet() {
-        return "Kuja's gradle application on new branch";
+        return "Kuja's gradle application for webhook trigger";
     }
 
 }
